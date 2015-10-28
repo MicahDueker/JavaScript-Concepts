@@ -1,3 +1,5 @@
+/*An alternative to the method: num % 2 ==0.  
+It uses a recursive function to return a boolean value, and is super inefficient.*/
 var isEven=function(num,num2){
   while (num2==undefined){
     num2=num
